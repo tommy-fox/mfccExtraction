@@ -30,7 +30,7 @@ myMFCC(numCoeff, numMel, x, fs, numFFT)
   - Progressively stores processed windows in an MFCC matrix Arguments:
   
   parameters: </br>
-    <ensp>x: input signal </br>
+    &nbsp; x: input signal </br>
     fs: sample rate </br>
     numCoeff: desired number of MFCC coefficients </br>
     numMel: number of filters in the mel filter bank </br>
