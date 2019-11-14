@@ -16,7 +16,7 @@ freqToMel(numMel, N, fs)
   - Scales Hertz-based frequencies to Mels
   
   parameters:
-    numMel: number of frequencies in the mel bank
+    </br>numMel: number of frequencies in the mel bank
     N: number of FFT points in the spectrum to be converted
     fs: sample rate of signal to be converted
     
