@@ -1,5 +1,5 @@
 # mfccExtraction
-This program creates and displays Mel-frequency cepstral coefficients for a given input signal. </br>
+This program creates and displays Mel-frequency cepstral coefficients for a given input signal in MATLAB. </br>
 
 mfccMain()
   - Displays Mel-scaled frequency of input signal
