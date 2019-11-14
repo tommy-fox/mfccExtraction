@@ -12,6 +12,14 @@ mfccMain()
     numMel: number of desired frequencies in the mel bank 
     numFFT: number of FFT points in the spectrum to be converted 
   
+freqToMel(numMel, N, fs)
+  - Scales Hertz-based frequencies to Mels
+  
+  parameters:
+    numMel: number of frequencies in the mel bank
+    N: number of FFT points in the spectrum to be converted
+    fs: sample rate of signal to be converted
+    
 myMFCC(numCoeff, numMel, x, fs, numFFT)
   - Obtains power spectrum of windowed signal
   - Maps frequencies in window to mel scale
