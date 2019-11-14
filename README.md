@@ -6,19 +6,6 @@ mfccMain()
   - Creates and displays MFCC matrix of input signal freqToMel(numMel, numFFT, fs)
   - Maps frequencies to mel scale
   - Creates a matrix for dot product operation with DFT of windowed signal Arguments:
-
-  parameters: </br>
-    &nbsp;&nbsp;&nbsp; fs: sample rate of signal to be converted </br>
-    &nbsp;&nbsp;&nbsp; numMel: number of desired frequencies in the mel bank </br>
-    &nbsp;&nbsp;&nbsp; numFFT: number of FFT points in the spectrum to be converted </br>
-  
-freqToMel(numMel, N, fs)
-  - Scales Hertz-based frequencies to Mels
-  
-  parameters:</br>
-    &nbsp;&nbsp;&nbsp; numMel: number of frequencies in the mel bank </br>
-    &nbsp;&nbsp;&nbsp; N: number of FFT points in the spectrum to be converted </br>
-    &nbsp;&nbsp;&nbsp; fs: sample rate of signal to be converted </br>
     
 myMFCC(numCoeff, numMel, x, fs, numFFT)
   - Obtains power spectrum of windowed signal
@@ -35,3 +22,11 @@ myMFCC(numCoeff, numMel, x, fs, numFFT)
     &nbsp;&nbsp;&nbsp; numCoeff: desired number of MFCC coefficients </br>
     &nbsp;&nbsp;&nbsp; numMel: number of filters in the mel filter bank </br>
     &nbsp;&nbsp;&nbsp; numFFT: number of FFT points to be used per frame </br>
+
+freqToMel(numMel, N, fs)
+  - Scales Hertz-based frequencies to Mels
+  
+  parameters:</br>
+    &nbsp;&nbsp;&nbsp; numMel: number of frequencies in the mel bank </br>
+    &nbsp;&nbsp;&nbsp; N: number of FFT points in the spectrum to be converted </br>
+    &nbsp;&nbsp;&nbsp; fs: sample rate of signal to be converted </br>
